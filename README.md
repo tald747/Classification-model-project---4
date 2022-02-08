@@ -19,6 +19,7 @@ Kaggle - Fraud Detection in Electricity and Gas Consumption:
 340MB csv file with 4.47m records and 22 columns, 137K clients
 - I have found a problem with the timeline continuity and decided to focus on the meter readings as a feature representing the timeline.
 <img src="https://user-images.githubusercontent.com/42075039/153003906-77c1235b-7af3-4e34-a114-7235dead71cf.png" width="700">
+
 - Gas and electricity have different tariff types.
 - Certain districts and regions showed higher proportion between fraudulent and regular clients.
 - Fraudulent clients were identified as more likely to change meters during their lifetime. 
@@ -30,6 +31,7 @@ Kaggle - Fraud Detection in Electricity and Gas Consumption:
 - For features with higher fraudulent clients’ proportion, we calculated the ratio between them and all clients.
 - Irregular meter readings between ending and starting points, led us to chose it as an indication of fraud.
 <img src="https://user-images.githubusercontent.com/42075039/153004187-2efd9ed4-02a8-4d20-bd4d-ae20dffece89.png" width="700">
+
 ## Models' performance:
 - The models used: LR, DT, RF, XGB, LGBM and Voting.
 - I tried PCA for dimensionality reduction, which was fruitless.
